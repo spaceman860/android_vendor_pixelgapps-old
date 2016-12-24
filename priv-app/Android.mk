@@ -126,39 +126,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := DynamiteModulesA
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := PrebuiltGmsCore/app_chimera/m/DynamiteModulesA.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := m
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCore/app_chimera/m/
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DynamiteModulesB
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := PrebuiltGmsCore/app_chimera/m/DynamiteModulesB.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := m
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCore/app_chimera/m/
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := DynamiteModulesC
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := PrebuiltGmsCore/app_chimera/m/DynamiteModulesC.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := m
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCore/app_chimera/m/
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := SetupWizard
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := SetupWizard/SetupWizard.apk

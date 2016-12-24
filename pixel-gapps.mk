@@ -52,9 +52,6 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     Phonesky \
     PrebuiltGmsCore \
-    DynamiteModulesA \
-    DynamiteModulesB \
-    DynamiteModulesC \
     SetupWizard \
     Velvet
 

@@ -27,14 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/pixelgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/pixelgapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
     vendor/pixelgapps/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libbrotli.so:system/priv-app/Velvet/lib/arm64/libbrotli.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libcronet.so:system/priv-app/Velvet/lib/arm64/libcronet.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libframesequence.so:system/priv-app/Velvet/lib/arm64/libframesequence.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libnativecrashreporter.so:system/priv-app/Velvet/lib/arm64/libnativecrashreporter.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so \
-    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libthird_party_brotli_dec_jni.so:system/priv-app/Velvet/lib/arm64/libthird_party_brotli_dec_jni.so \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.fst:system/usr/srec/en-US/APP_NAME.fst \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.syms:system/usr/srec/en-US/APP_NAME.syms \
     vendor/pixelgapps/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
