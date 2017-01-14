@@ -25,9 +25,7 @@ PRODUCT_PACKAGES += \
     GoogleTTS \
     GoogleVrCore \
     Hangouts \
-    PartnerBookmarksProvider \
     Photos \
-    PlayAutoInstallConfig \
     PrebuiltBugle \
     PrebuiltDeskClockGoogle \
     talkback
@@ -52,6 +50,9 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     Phonesky \
     PrebuiltGmsCore \
+    DynamiteModulesA \
+    DynamiteModulesB \
+    DynamiteModulesC \
     SetupWizard \
     Velvet
 
