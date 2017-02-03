@@ -17,8 +17,6 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
-    CalendarGooglePrebuilt \
-    Chrome \
     FaceLock \
     GoogleCamera \
     GoogleContactsSyncAdapter \
@@ -26,9 +24,9 @@ PRODUCT_PACKAGES += \
     GoogleVrCore \
     Hangouts \
     Photos \
-    PrebuiltBugle \
-    PrebuiltDeskClockGoogle \
-    talkback
+    PlusOne \
+    talkback \
+    YouTube
 
 # /framework
 PRODUCT_PACKAGES += \
