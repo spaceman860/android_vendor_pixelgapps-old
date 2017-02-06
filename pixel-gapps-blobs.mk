@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/pixelgapps/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
     vendor/pixelgapps/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
     vendor/pixelgapps/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
-    vendor/pixelgapps/etc/sysconfig/marlin_common.xml:system/etc/sysconfig/marlin_common.xml \
     vendor/pixelgapps/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/pixelgapps/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/pixelgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
