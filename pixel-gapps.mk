@@ -26,6 +26,8 @@ PRODUCT_PACKAGES += \
     Photos \
     PlusOne \
     talkback \
+    WallpapersBReel \
+    WallpapersUsTwo \
     YouTube
 
 # /framework
@@ -57,4 +59,11 @@ PRODUCT_PACKAGES += \
 
 # /symlinks
 PRODUCT_PACKAGES += \
-    libfacenet.so
+    libfacenet.so \
+    libgdx.so \
+    libgeswallpapers-jni.so \
+    libjpeg.so
+
+# wallpaper location prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.wallpapers_loc_request_suw=true

@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/pixelgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/pixelgapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
     vendor/pixelgapps/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
+    vendor/pixelgapps/lib64/libgdx.so:system/lib64/libgdx.so \
+    vendor/pixelgapps/lib64/libgeswallpapers-jni.so:system/lib64/libgeswallpapers-jni.so \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.fst:system/usr/srec/en-US/APP_NAME.fst \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.syms:system/usr/srec/en-US/APP_NAME.syms \
     vendor/pixelgapps/usr/srec/en-US/c_fst:system/usr/srec/en-US/c_fst \
