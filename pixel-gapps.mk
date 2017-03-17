@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PixelLauncher \
     PrebuiltGmsCore \
+    DynamiteLoader \
     DynamiteModulesA \
     DynamiteModulesB \
     DynamiteModulesC \
