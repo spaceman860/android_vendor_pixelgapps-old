@@ -136,17 +136,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := DynamiteLoader
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := PrebuiltGmsCore/app_chimera/m/DynamiteLoader.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := m
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app/PrebuiltGmsCore/app_chimera/m/
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := DynamiteModulesA
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := PrebuiltGmsCore/app_chimera/m/DynamiteModulesA.apk
