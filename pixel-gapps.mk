@@ -18,6 +18,7 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
+    Gmail \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
