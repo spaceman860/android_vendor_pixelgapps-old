@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
-    GoogleVrCore \
     Hangouts \
     Photos \
     PlusOne \
