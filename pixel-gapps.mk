@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
-    Photos \
     PlusOne \
     talkback \
     WallpapersBReel \
