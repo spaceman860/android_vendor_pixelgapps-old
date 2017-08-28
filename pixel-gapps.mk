@@ -18,16 +18,13 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
-    Gmail \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
-    Hangouts \
-    PlusOne \
+    GoogleVrCore \
     talkback \
     WallpapersBReel \
-    WallpapersUsTwo \
-    YouTube
+    WallpapersUsTwo
 
 # /framework
 PRODUCT_PACKAGES += \
@@ -38,21 +35,25 @@ PRODUCT_PACKAGES += \
 
 # /priv-app
 PRODUCT_PACKAGES += \
+    AndroidPlatformServices \
+    CarrierSetup \
     ConfigUpdater \
     ConnMetrics \
     GmsCoreSetupPrebuilt \
     GoogleBackupTransport \
     GoogleFeedback \
-    GoogleLoginService \
     GoogleOneTimeInitializer \
     GooglePartnerSetup \
     GoogleServicesFramework \
     Phonesky \
     PixelLauncher \
     PrebuiltGmsCore \
+    DynamiteLoader.apk \
     DynamiteModulesA \
     DynamiteModulesB \
     DynamiteModulesC \
+    DynamiteModulesD \
+    GoogleCertificates \
     SetupWizard \
     Velvet
 
